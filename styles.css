@@ -57,6 +57,8 @@
 	gap: 1em;
 	justify-content: flex-end;
 	order: 1;
+	margin-left: -2em;
+
 }
 .control_wrapper { 
 	height: 2em;
@@ -90,25 +92,25 @@
 	visibility: hidden;
 }
 .first:checked ~ .controls > .control_wrapper:nth-child(1){
-	transform: scale(1.5);
+	transform: scale(1.1);
 	border: 0.1em solid #df357c;
 	border-radius: 50%;
 	transition: .5s ease-in;
 }
 .second:checked ~ .controls > .control_wrapper:nth-child(2){
-	transform: scale(1.5);
+	transform: scale(1.1);
 	border: 0.1em solid #df357c;
 	border-radius: 50%;
 	transition: .5s ease-in;
 }
 .third:checked ~ .controls > .control_wrapper:nth-child(3){
-	transform: scale(1.5);
+	transform: scale(1.1);
 	border: 0.1em solid #df357c;
 	border-radius: 50%;
 	transition: .5s ease-in;
 }
 .fourth:checked ~ .controls > .control_wrapper:nth-child(4){
-	transform: scale(1.5);
+	transform: scale(1.1);
 	border: 0.1em solid #df357c;
 	border-radius: 50%;
 	transition: .5s ease-in;
